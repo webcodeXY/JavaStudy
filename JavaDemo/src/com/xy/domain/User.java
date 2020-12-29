@@ -29,6 +29,14 @@ public class User {
         this.age = age;
     }
 
+    public void eat(){
+        System.out.println("eat...");
+    }
+
+    public void eat(String eatName){
+        System.out.println("eat..." + eatName);
+    }
+
     @Override
     public String toString() {
         return "User{" +
